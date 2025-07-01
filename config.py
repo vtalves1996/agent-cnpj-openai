@@ -1,8 +1,9 @@
 # Configurações globais e sensíveis, carregadas do arquivo .env
 
-from dotenv import load_dotenv
 import os
+from dotenv import load_dotenv
 
+# Carrega variáveis de ambiente do arquivo .env (útil para dev/local)
 load_dotenv()
 
 # Chaves de API
@@ -11,4 +12,4 @@ CNPJA_API_TOKEN = os.getenv("CNPJA_API_TOKEN")
 
 # Parâmetros adicionais
 CNPJ_API_BASE = os.getenv("CNPJ_API_BASE")
-TIMEOUT = int(os.getenv("TIMEOUT", 10))  # valor padrão de 10s
+TIMEOUT = int(os.getenv("TIMEOUT", 10))  # fallback para 10s se não definido no .env

@@ -4,7 +4,7 @@ Este documento apresenta os testes realizados para validar a funcionalidade de c
 
 ---
 
-## ✅ Estrutura dos Testes
+## Estrutura dos Testes
 
 O arquivo `test_tools.py` cobre os seguintes cenários:
 
@@ -18,7 +18,7 @@ Todos os testes utilizam `unittest.mock.patch` para simular as respostas da API.
 
 ---
 
-## 🔍 Comando executado
+## Comando executado
 
 Para rodar os testes, foi utilizado o comando abaixo no terminal da raiz do projeto:
 
@@ -43,7 +43,7 @@ Evidência do resultado
 
 ---
 
-## ⚠️ Observação adicional
+## Observação adicional
 
 Durante todo o desenvolvimento, a API da CNPJá apresentou erros 429 (Too Many Requests), impedindo testes com CNPJs reais.
 

@@ -1,4 +1,5 @@
 # Tool: função que consulta a API do CNPJá com tratamento e logging
+
 import requests
 import time
 from config import CNPJA_API_TOKEN, CNPJ_API_BASE, TIMEOUT

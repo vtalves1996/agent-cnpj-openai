@@ -1,4 +1,5 @@
 # Funções auxiliares: validação de CNPJ, tratamento de erros
+
 import re
 
 def extrair_cnpj(texto: str) -> str | None:

@@ -1,4 +1,5 @@
 # Arquivo principal: integração com OpenAI e execução do agente
+
 import openai
 import os
 from config import OPENAI_API_KEY
