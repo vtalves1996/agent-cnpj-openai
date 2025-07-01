@@ -75,6 +75,24 @@ Para evitar múltiplas requisições da mesma consulta CNPJ, um cache simples co
 
 ---
 
+## Melhorias Futuras
+
+A seguir, algumas melhorias consideradas para evoluções futuras do projeto, dependendo das necessidades específicas do cliente ou da empresa:
+
+- **Interface Web para Interação**  
+  Implementar uma interface visual simples utilizando ferramentas como Streamlit ou Gradio, permitindo que usuários testem o assistente sem depender do terminal.
+
+- **Execução com API Ativa**  
+  Realizar os testes automatizados e a demonstração final com a API CNPJá em funcionamento, garantindo cobertura completa dos fluxos reais.
+
+- **Logs Estruturados**  
+  Aprimorar o sistema de logging para tornar os registros mais organizados, facilitando análise de erros e auditoria.
+
+- **Customização conforme Cliente**  
+  Deixar a estrutura do projeto aberta para ajustes de fluxo, mensagens ou integrações conforme o perfil e objetivo do cliente final.
+
+---
+
 ## Autor
 
 Desenvolvido por **Victor Alves** como parte do desafio técnico da **Patagon AI**.
