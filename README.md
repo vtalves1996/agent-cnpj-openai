@@ -10,7 +10,7 @@ Assistente conversacional em linha de comando que consulta e resume informaçõe
 
 ### 1. Clone o repositório
 ```bash
-git clone https://github.com/seu-usuario/agentcnpj.git
+git clone [https://github.com/seu-usuario/agentcnpj.git](https://github.com/vtalves1996/agent-cnpj-openai)
 cd agent-cnpj-openai
 
 ---
